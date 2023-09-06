@@ -25,7 +25,7 @@ CC=cc
 MPICC=cc
 CUDACC=nvcc
 HIPCC=hipcc
-OMPFLAG= -Xclang -fopenmp -L/opt/homebrew/opt/libomp/lib -I/opt/homebrew/opt/libomp/include -lomp
+OMPFLAG= -fopenmp 
 
 # Flags for optimization and libs
 FLAGS=-O3
