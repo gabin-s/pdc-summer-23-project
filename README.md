@@ -15,8 +15,7 @@ Details are provided in the [report](report.pdf).
 
 ## Compiling
 The code has been evaluated using the following versions of libraries and compilers:
-- OpenMP: Apple clang/14.0.3, OpenMP/16.0.6
-- MPI: Cray clang/14.0.1, Cray MPICH/8.1.17 (through module PrgEnv-cray/8.3.3)
+- OpenMP/MPI: Cray clang/14.0.1, Cray MPICH/8.1.17 (through module PrgEnv-cray/8.3.3)
 - CUDA: compiler 11.5, runtime 11.7, driver 515.65.01
 
 Please adjust the Makefile to you own setup in order to compile the code.
